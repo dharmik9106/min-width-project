@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.navbar{
+    max-width: 1320px;
+    background-color: aquamarine;
+    height: 100px;
+}
+.nav{
+    max-width: 1320px ;
+    background-color: beige;
+}
+/* ------section-1 start----- */
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.container h2{
+    top: 30px;
+    font-size: 44px;
+}
+
+/* display flex proprties */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+/* -----justify-properties------ */
+.j-c{
+    justify-content: center;
+}
+.j-s{
+    justify-content: start;
+}
+.j-e{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+}
+
+.j-a{
+    justify-content: space-around;
+
+}
+.j-b{
+    justify-content: space-between;
+}
+
+.j-e{
+    justify-content: space-evenly;
+}
+
+/* padding properties */
+
+.p-1{
+    padding: 10px;
+
+}
+.p-2{
+    padding: 20px;
+}
+.p-left{
+    padding: 30px;
+}
+.p-right{
+    padding: 20px;
+
+}
+
+/* ----padding-end--- */
+
+.bg{
+    background-image: url("img/us.webp");
+    background-size: cover;
+}
+
+.box {
+    padding: 0px 0px 0px 64px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: aliceblue;
+
+}  
+.box h1{
+    font-size: 80px;
+    color: white;   
+} 
+.btn{
+    padding: 20px 50px 20px 50px ;
+    background-color: rgb(250, 213, 5);
+    font-weight: 400;
+    padding: 16px 32px;
+    font-size: 20px;
+    flex-flow: column;
+    border: none;
+    color: rgb(51, 48, 48);
+    letter-spacing: 1px;
+}
+
+
+.box1{
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.im-1{
+    background-image: url("img/im1.webp");
+    background-size: cover;
+    border-radius: 10px;
+    
+    
+}
+.im-2{
+    background-image: url("img/im2.webp");
+    background-size: cover;
+    border-radius: 10px;
+   
+    
+}
+.im-3{
+    background-image: url("img/im3.webp");
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+
+.box1 p{
+    letter-spacing: 2;
+    color: rgb(250, 245, 245);
+}
+
+.box1 h1{
+    font-size: 30px;
+    letter-spacing: 2;
+    color: rgb(250, 248, 248);
+}
+
+
+
+/* height properties */
+
+.h-1{
+    height: 178px;
+}
+.h-2{
+    height: 200px;
+}
+.h-3{
+    height: 300px;
+}
+.h-4{
+    height: 400px;
+}
+.h-5{
+    height: 500px;
+}
+.h-6{
+    height: 600px;
+}
+.h-7{
+    height: 50px;
+}
+
+
+
+.para1{
+    color: #2f2f2f;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+/* ------section-1 end---- */
+
+
+/* -----section-2 start----- */
+
+
+.sa-1{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    background-image: url("img/sa-1.webp");
+}
+.sa-2{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    background-image: url("img/sa-2.webp");
+}
+.sa-3{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    
+    background-image: url("img/sa-3.webp");
+}
+.sa-4{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    background-image: url("img/sa-4.webp");
+}
+.sa-5{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    background-image: url("img/sa-5.webp");
+}
+.sa-6{
+    background-size: cover;
+    border-radius: 50%;
+    width: 178px;
+    background-image: url("img/sa-6.webp");
+}
+
+
+a{
+    font-size: 17px;
+    letter-spacing: 2;
+    transition: all 0.5s;
+  
+}
+
+a:hover{
+    color:rgb(43, 124, 216);
+}
+
+
+.div{
+    padding: 20px;
+    font-size: 10px;
+    background-color: #cfcfce;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* -----section-2 end----- */
+
+
+/* -----section--3 start---- */
+
+.it-1{
+    background-image: url("img/it-1.webp");
+    background-size: cover;
+
+    width: 100%;
+    
+}
+.it-2{
+    background-image: url("img/it-2.webp");
+    background-size: cover;
+ 
+    width: 100%;
+
+}
+.it-3{
+    background-image: url("img/it-3.webp");
+    background-size: cover;
+   
+    width: 100%;
+
+}
+.it-4{
+    background-image: url("img/it-4.webp");
+    background-size: cover;
+   
+    width: 100%;
+
+}
+h3{
+    align-items: center;
+}
+
+/* -----section--3 end---- */
+
